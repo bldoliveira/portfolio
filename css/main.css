@@ -230,6 +230,7 @@ p {
 /* -------------------------------------------------------------------------------------------------- */
 .hero {
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     background-attachment: fixed;
 
@@ -239,8 +240,22 @@ p {
 
 .glyph {
     font-family: Glyphter, sans-serif;
-}
+    font-size: 12vh;
+    letter-spacing: 0;
+    word-spacing: -3vh;
+    line-height: 13vh;
+    word-wrap: break-word;
+    text-align: right;
 
+    
+}
+.glyph-container {
+    position: absolute;
+    display: inline;
+    top: 160px;
+    right: -20px;
+    
+}
 
 
 
@@ -252,10 +267,11 @@ p {
     padding: 0 25px;
     
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     background-attachment: fixed;
 
-    background-image: url(../files/img/Rectangl2.png);
+    background-image: url(../files/img/Rectangle.png);
 
 }
 
