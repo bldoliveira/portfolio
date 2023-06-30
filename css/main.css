@@ -43,7 +43,7 @@ body {
 
 #project1 {
     /* background: rgb(183,207,253);
-background: linear-gradient(180deg, rgba(183,207,253,1) 0%, rgba(97,169,250,1) 40%, rgba(145,104,233,1) 100%); */
+    background: linear-gradient(180deg, rgba(183,207,253,1) 0%, rgba(97,169,250,1) 40%, rgba(145,104,233,1) 100%); */
 
     background: rgb(230, 222, 255);
     background: linear-gradient(180deg, rgb(206, 189, 255) 0%, rgba(171, 237, 255, 1) 47%, rgba(255, 185, 80, 1) 95%);
@@ -114,9 +114,6 @@ p {
     text-align: right;
 }
 
-
-
-
 .vertical-align {
     vertical-align: middle;
     text-align: center;
@@ -144,8 +141,6 @@ p {
     background-color: transparent;
     color: transparent;
 
-  
-
 }
 
 .line-header {
@@ -154,6 +149,9 @@ p {
     
     transition: all 0.8s ease-in-out;
    
+}
+.index-header{
+    color: #412A96!important;
 }
 
 .logo {
@@ -245,16 +243,15 @@ p {
     word-spacing: -3vh;
     line-height: 13vh;
     word-wrap: break-word;
-    text-align: right;
-
-    
+    text-align: right; 
 }
+
 .glyph-container {
     position: absolute;
     display: inline;
     top: 160px;
     right: -20px;
-    
+   
 }
 
 
