@@ -11,11 +11,11 @@ $(window).scroll(function() {
 
     if (showText) {
         // mostrar
-        $(".logo").addClass("visivel");
+        $(".logo").addClass("visible");
         $(".main-header").addClass("line-header");
     } else {
         //esconder
-        $(".logo").removeClass("visivel")
+        $(".logo").removeClass("visible")
         $(".main-header").removeClass("line-header")
     }
  });
