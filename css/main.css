@@ -507,6 +507,7 @@ p {
 /* -------------------------------------------------------------------------------------------------- */
 /* ---------------------------------------------PROJECTS------------------------------------------------ */
 /* -------------------------------------------------------------------------------------------------- */
+
 .title-project {
     margin-bottom: 40px;
 }
@@ -541,7 +542,6 @@ p {
     font-weight: 400;
     font-size: 3.2em;
     line-height: 40px;
-
     color: #13091d;
 }
 
@@ -553,9 +553,7 @@ p {
     line-height: 28px;
     margin-top: 30px;
     margin-bottom:10px;
-
     color: #13091d;
-
 }
 
 .project-container h3 {
@@ -566,7 +564,6 @@ p {
     line-height: 28px;
     margin-top: 30px;
     margin-bottom:10px;
-
     color: #13091d;
 }
 
@@ -578,16 +575,47 @@ p {
     line-height: 24px;
     margin: 15px 0;
     letter-spacing: 0.5px;
-
 }
+
+.project-container li {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6em;
+    line-height: 24px;
+    margin: 22px 0;
+    letter-spacing: 0.5px;
+}
+
+.project-container ul {
+    margin: 37px 74px;
+    /* background: #fff; */
+    padding: 11px 31px;
+    border: black solid 2px;
+}
+
+.quotes{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.6em;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+    margin: 24px 72px;
+    padding: 0px 22px;
+    border-left: #13091d solid 2px;
+}
+
+
+
 
 .project-container img {
     margin: 30px auto;
 }
+
 .paragraph-block {
     margin-bottom: 50px;
     justify-content: center;
-
 }
 
 .iframe-container {
