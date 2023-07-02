@@ -587,7 +587,7 @@ p {
     letter-spacing: 0.5px;
 }
 
-.project-container ul {
+.aside-block {
     margin: 37px 74px;
     /* background: #fff; */
     padding: 11px 31px;
@@ -601,7 +601,7 @@ p {
     font-size: 1.6em;
     line-height: 35px;
     letter-spacing: 0.5px;
-    margin: 24px 72px;
+    margin: 50px auto 50px auto;
     padding: 0px 22px;
     border-left: #13091d solid 2px;
 }
