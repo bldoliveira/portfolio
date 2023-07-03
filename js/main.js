@@ -28,6 +28,13 @@
 //  });
 
 
+// abrir menu mobile
+$(function () {
+    $(".btn-hamburger").click(function () {
+        $(".menu-mobile").removeClass("desactivado");
+    });
 
-
- 
+    $(".btnClose").click(function () {
+        $(".menu-mobile").addClass("desactivado");
+    });
+});
