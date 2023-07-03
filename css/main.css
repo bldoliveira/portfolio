@@ -321,6 +321,7 @@ img.close {
 
     background-image: url(../files/img/Rectangle.png);
 
+    overflow-x: clip;
 }
 
 .glyph {
