@@ -232,12 +232,17 @@ p {
 .btn-hamburger {
     display: none;
     position: absolute;
-    max-height: 18px;
+    height: 44px;
+    width: 44px;
     background: transparent;
     border: none;
 
-    top: 30px;
+    top: 20px;
     right: 20px;
+    align-content: center;
+    justify-content: center;
+    
+    flex-wrap: wrap;
 }
 
 img.hamburger {
@@ -246,14 +251,24 @@ img.hamburger {
 }
 
 .btnClose {
-    display: inline;
+    display: flex;
     position: absolute;
-    max-height: 18px;
+    height: 44px;
+    width: 44px;
     background: transparent;
     border: none;
 
     top: 30px;
     right: 35px;
+
+    top: 20px;
+    right: 20px;
+    align-content: center;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+
+
 }
 
 img.close {
@@ -276,6 +291,7 @@ img.close {
 .menu-list a {
     text-decoration: none;
     color: #13091d;
+    height: 44px;
 }
 
 .menu-list a:hover {
@@ -417,7 +433,7 @@ img.close {
 /* -------------------------------------------------------------------------------------------------- */
 
 
-.vertical {
+.vertical-txt {
     position: absolute;
     left: -19px;
     top: -9px;
@@ -655,6 +671,8 @@ img.close {
     color: #D960DA;
 }
 
+
+
 .portrait {
     padding-right: 25px;
     padding-bottom: 20px;
@@ -851,6 +869,10 @@ img.close {
     max-height: 25px;
 }
 
+.col-footer {
+    margin-bottom: 40px;
+}
+
 
 /* -------------------------------------------------------------------------------------------------- */
 /* -----------------------------------MEDIA QUERIES--------------------------------------------------- */
@@ -870,16 +892,16 @@ img.close {
 }
 
 @media (max-width:992px) {
-    html {
+    /* html {
         font-size: 60%;
-    }
+    } */
 
     .glyph-container {
 
         right: -182px;
     }
 
-    .vertical {
+    .vertical-txt {
         left: -44px;
 
     }
@@ -899,9 +921,9 @@ img.close {
 }
 
 @media (max-width:768px) {
-    html {
+    /* html {
         font-size: 58.5%;
-    }
+    } */
 
     .portrait {
         padding-right: 50px;
@@ -915,6 +937,7 @@ img.close {
 
     .btn-hamburger {
         display:flex;
+
     }
 
     .hero-container {
@@ -930,14 +953,42 @@ img.close {
         height: 300px;
     }
 
+    /* .btn-resume {
+        padding: 13px 50px 13px;
+    } */
 
-
+    
 }
 
-@media (max-width:600px) {
+@media (max-width:576px) {
     
+    .vertical-txt{
+        transform: rotate(0deg);
+        left: 18px;
+        top: -50px;
 
+    }
 
+    .cover {
+        height: 200px;
+    }
+    
+    .col-footer {
+        text-align: center;
+        align-content: center;
+        align-self: center;
+        align-items: center;
+    }
+
+    .main-footer p {
+        text-align: center;
+        line-height: 44px;
+        
+    }
+
+    .main-footer a {
+        line-height: 44px;
+    }
 
 
 }
