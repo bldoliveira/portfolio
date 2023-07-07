@@ -38,3 +38,45 @@ $(function () {
         $(".menu-mobile").addClass("desactivado");
     });
 });
+
+
+// mudar cor thumbnails
+
+
+$('.thumbnail-link-1').on({
+    mouseenter: function(){
+      $('.thumbnail-1').css("background-color", "#9b70e5");
+    },
+    mouseleave: function(){
+      $('.thumbnail-1').css("background-color", "#6e71df");
+    },
+    click: function(){
+      $('.thumbnail-1').css("background-color", "yellow");
+    }
+  }); 
+
+
+  $('.thumbnail-link-2').on({
+    mouseenter: function(){
+      $('.thumbnail-2').css("background-color", "#9b70e5");
+    },
+    mouseleave: function(){
+      $('.thumbnail-2').css("background-color", "#6e71df");
+    },
+    click: function(){
+      $('.thumbnail-2').css("background-color", "yellow");
+    }
+  }); 
+
+
+$('.thumbnail-link-3').on({
+    mouseenter: function(){
+      $('.thumbnail-3').css("background-color", "#9b70e5");
+    },
+    mouseleave: function(){
+      $('.thumbnail-3').css("background-color", "#6e71df");
+    },
+    click: function(){
+      $('.thumbnail-3').css("background-color", "yellow");
+    }
+  }); 
