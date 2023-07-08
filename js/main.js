@@ -51,7 +51,7 @@ $('.thumbnail-link-1').on({
       $('.thumbnail-1').css("background-color", "#6e71df");
     },
     click: function(){
-      $('.thumbnail-1').css("background-color", "yellow");
+      $('.thumbnail-1').css("background-color", "#d960da");
     }
   }); 
 
@@ -64,7 +64,7 @@ $('.thumbnail-link-1').on({
       $('.thumbnail-2').css("background-color", "#6e71df");
     },
     click: function(){
-      $('.thumbnail-2').css("background-color", "yellow");
+      $('.thumbnail-2').css("background-color", "#d960da");
     }
   }); 
 
@@ -77,6 +77,18 @@ $('.thumbnail-link-3').on({
       $('.thumbnail-3').css("background-color", "#6e71df");
     },
     click: function(){
-      $('.thumbnail-3').css("background-color", "yellow");
+      $('.thumbnail-3').css("background-color", "#d960da");
     }
   }); 
+
+
+$(function () {
+    if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1){
+        $('#hero-section').removeClass('hero-default');
+        $('#hero-section').addClass('hero-firefox');
+        $('#glyph-div').removeClass('hero-default');
+        $('#glyph-div').addClass('hero-firefox');
+        $('#hero-container-div').removeClass('bg-clip');
+    }
+});
+
