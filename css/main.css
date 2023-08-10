@@ -657,7 +657,13 @@ img.close {
     left: 0px;
 }
 
-.btn-resume:hover {
+.btn-resume a {
+    text-decoration: none;
+    color: #13091d;
+}
+
+
+.btn-resume a:hover {
     color: #D960DA;
 }
 
@@ -753,6 +759,8 @@ img.close {
     /* margin: 22px 0; */
     letter-spacing: 0.5px;
 }
+
+
 
 .aside-block {
     margin: 37px auto;
@@ -1074,3 +1082,4 @@ img.close {
 }
 
 
+}
