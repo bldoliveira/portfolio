@@ -526,6 +526,7 @@ img.close {
 .thumbnail-container p {
     font-weight: 300;
     color: #fff;
+    text-align: left;
 }
 
 .thumbnail-container a {
